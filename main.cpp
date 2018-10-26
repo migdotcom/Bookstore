@@ -1,8 +1,11 @@
 #include <iostream>
 #include<fstream>
 #include<assert.h>
+#include <string>
+#include <sstream>
+#include <iomanip>
+#include "ArgumentManager.h"
 
-using namespace std;
 
 template <class Type>
 struct nodeType{
@@ -146,8 +149,15 @@ const linkedStackType<Type>& linkedStackType<Type>::operator=(
 
 }
 
-void testCopy(linkedStackType<int> OStack);
+void testCopy(linkedStackType<int> OStack){
+    cout << "Stack in the function testCopy:" <<endl;
+    cout <<"Hello" << endl;
 
+    while(!OStack.isEmptyStack()){
+        cout <<OStack.top() << endl;
+        OStack.pop();
+    }
+}
 //////////////////////////////////////////////////////////////////////////////////////
 template <class Type>
 class queueADT{
@@ -178,7 +188,7 @@ public:
      void deleteQueue();
     linkedQueueType();
     linkedQueueType(const linkedQueueType<Type> & otherQueue);
-//     ~linkedQueueType();
+     ~linkedQueueType();
 
 private:
     nodeType<Type> *qFront;// pointer to the front
@@ -261,77 +271,116 @@ linkedQueueType<Type>::linkedQueueType() {
     qRear = NULL;
 
 }
-
+template <class Type>
+linkedQueueType<Type>::~linkedQueueType()  {
+    initializeQueue();
+};
 
 using namespace std;
 
-int main(){
+int main(int argc, char* argv[])
+{
 
-    linkedStackType<int> stack;
-    linkedStackType<int> otherStack;
-    linkedStackType<int> newStack;
-
-    //adding elements
-    stack.push(34);
-    stack.push(43);
-    stack.push(27);
-    // using assigment operator to copy
-    newStack = stack;
-
-    cout << "After the assigment operator newStack:"
-         <<endl;
-    while (!newStack.isEmptyStack()){
-        cout <<newStack.top() <<endl;
-        newStack.pop();
-    }
-    //using assigment operator again to copy elements
-    otherStack =stack;
-
-    cout << "Testing copy constructor." <<endl;
-    testCopy(otherStack);
-
-    cout<< "stack:" <<endl;
-    while (!stack.isEmptyStack()){
-        cout <<stack.top()<<endl;
-        stack.pop();
-
-    }
-
-
-
-    /////////////////////////////////////////////////////////////////////////
-
-    linkedQueueType<int> Myqueue;
-    int x,y;
-    Myqueue.initializeQueue();
-    x=4;
-    y=5;
-    Myqueue.addQueue(x);
-    Myqueue.addQueue(y);
-    x = Myqueue.front();
-    Myqueue.deleteQueue();
-    Myqueue.addQueue(x+5);
-    Myqueue.addQueue(16);
-    Myqueue.addQueue(x);
-    Myqueue.addQueue(y-3);
-    cout << "queue elements:";
-    while(!Myqueue.isEmptyQueue()){
-        cout << Myqueue.front() <<" ";
-        Myqueue.deleteQueue();
-
-    }
+    ArgumentManager am(argc, argv);
+    std::string infilename = am.get("input");
+    std::string commandfilename = am.get("command");
+    std::string outfilename = am.get("output");
+    std::cout << "File name for input: " << infilename << std::endl
+              << "File name for command: " << infilename << std::endl
+              << "File name for output: " << outfilename << std::endl;
 
     return 0;
-}
-void testCopy(linkedStackType<int> OStack){
-    cout << "Stack in the function testCopy:" <<endl;
-    cout <<"Hello" << endl;
 
-    while(!OStack.isEmptyStack()){
-        cout <<OStack.top() << endl;
-        OStack.pop();
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//int main(){
+//
+//    linkedStackType<int> stack;
+//    linkedStackType<int> otherStack;
+//    linkedStackType<int> newStack;
+//
+//    //adding elements
+//    stack.push(34);
+//    stack.push(43);
+//    stack.push(27);
+//    // using assigment operator to copy
+//    newStack = stack;
+//
+//    cout << "After the assigment operator newStack:"
+//         <<endl;
+//    while (!newStack.isEmptyStack()){
+//        cout <<newStack.top() <<endl;
+//        newStack.pop();
+//    }
+//    //using assigment operator again to copy elements
+//    otherStack =stack;
+//
+//    cout << "Testing copy constructor." <<endl;
+//    testCopy(otherStack);
+//
+//    cout<< "stack:" <<endl;
+//    while (!stack.isEmptyStack()){
+//        cout <<stack.top()<<endl;
+//        stack.pop();
+//
+//    }
+//
+//
+//
+//    /////////////////////////////////////////////////////////////////////////
+//
+//    linkedQueueType<int> Myqueue;
+//    int x,y;
+//    Myqueue.initializeQueue();
+//    x=4;
+//    y=5;
+//    Myqueue.addQueue(x);
+//    Myqueue.addQueue(y);
+//    x = Myqueue.front();
+//    Myqueue.deleteQueue();
+//    Myqueue.addQueue(x+5);
+//    Myqueue.addQueue(16);
+//    Myqueue.addQueue(x);
+//    Myqueue.addQueue(y-3);
+//    cout << "queue elements:";
+//    while(!Myqueue.isEmptyQueue()){
+//        cout << Myqueue.front() <<" ";
+//        Myqueue.deleteQueue();
+//
+//    }
+//
+//    return 0;
+//}
+//
 
 
 

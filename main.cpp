@@ -325,9 +325,13 @@ int main(){
 }
 void testCopy(linkedStackType<int> OStack){
     cout << "Stack in the function testCopy:" <<endl;
+    cout <<"Hello" << endl;
 
     while(!OStack.isEmptyStack()){
         cout <<OStack.top() << endl;
         OStack.pop();
     }
 }
+
+
+

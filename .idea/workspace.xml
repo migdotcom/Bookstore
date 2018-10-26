@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b9256c4-fb2c-40a0-a1ad-868802dcc63a" name="Default Changelist" comment="" />
+    <list default="true" id="2b9256c4-fb2c-40a0-a1ad-868802dcc63a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +48,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="7391" />
+          <entry key="cpp" value="7429" />
           <entry key="h" value="158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="7549" />
+          <entry key="ObjectiveC" value="7587" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+            <state relative-caret-position="132">
+              <caret line="328" column="4" selection-start-line="328" selection-start-column="4" selection-end-line="328" selection-end-column="4" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#89#101#0" expanded="true" />
@@ -93,6 +95,7 @@
                 <element signature="e#1446#1458#0" expanded="true" />
                 <element signature="e#1727#1739#0" expanded="true" />
                 <element signature="e#1852#1864#0" expanded="true" />
+                <element signature="e#2135#2147#0" expanded="true" />
                 <element signature="e#3143#3155#0" expanded="true" />
                 <element signature="e#3299#3311#0" expanded="true" />
                 <element signature="e#3392#3404#0" expanded="true" />
@@ -144,6 +147,9 @@
       <find>link</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -166,6 +172,7 @@
     <option name="width" value="1104" />
     <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -246,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540438884727</updated>
       <workItem from="1540438887772" duration="11019000" />
-      <workItem from="1540499286752" duration="11268000" />
+      <workItem from="1540499286752" duration="11634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22287000" />
+    <option name="totallyTimeSpent" value="22653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="736" height="688" extended-state="0" />
@@ -334,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="328" column="4" selection-start-line="328" selection-start-column="4" selection-end-line="328" selection-end-column="4" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#89#101#0" expanded="true" />
@@ -348,6 +355,7 @@
             <element signature="e#1446#1458#0" expanded="true" />
             <element signature="e#1727#1739#0" expanded="true" />
             <element signature="e#1852#1864#0" expanded="true" />
+            <element signature="e#2135#2147#0" expanded="true" />
             <element signature="e#3143#3155#0" expanded="true" />
             <element signature="e#3299#3311#0" expanded="true" />
             <element signature="e#3392#3404#0" expanded="true" />

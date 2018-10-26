@@ -1,0 +1,3 @@
+C:/Users/Migue/Bookstore/cmake-build-debug/CMakeFiles/Bookstore.dir
+C:/Users/Migue/Bookstore/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Migue/Bookstore/cmake-build-debug/CMakeFiles/rebuild_cache.dir

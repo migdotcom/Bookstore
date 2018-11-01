@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Migue/Bookstore/ArgumentManager.h
+map
+-
+string
+-
+iostream
+-
+sstream
+-
+
 C:/Users/Migue/Bookstore/main.cpp
 iostream
 -
@@ -13,4 +23,12 @@ fstream
 -
 assert.h
 -
+string
+-
+sstream
+-
+iomanip
+-
+ArgumentManager.h
+C:/Users/Migue/Bookstore/ArgumentManager.h
 

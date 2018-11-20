@@ -1,0 +1,5 @@
+Intrusion Detection not found
+Web Security finding cost at stack: 5, at queue: 2
+Network Security not found
+Mobile Computing finding cost at stack: 4, at queue: 4
+Databases finding cost at stack: 4, at queue: 1

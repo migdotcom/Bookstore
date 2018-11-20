@@ -17,17 +17,15 @@ sstream
 -
 
 C:/Users/Migue/Bookstore/main.cpp
-iostream
--
-fstream
--
 assert.h
+-
+iostream
 -
 string
 -
 sstream
 -
-iomanip
+fstream
 -
 ArgumentManager.h
 C:/Users/Migue/Bookstore/ArgumentManager.h

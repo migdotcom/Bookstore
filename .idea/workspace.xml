@@ -13,17 +13,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2b9256c4-fb2c-40a0-a1ad-868802dcc63a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Bookstore.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArgumentManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Bookstore.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Bookstore.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Bookstore.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -52,36 +48,42 @@
     <session id="-83349427">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="9081" />
+          <entry key="cpp" value="15609" />
           <entry key="h" value="158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="9238" />
+          <entry key="Doxygen file" value="8" />
+          <entry key="ObjectiveC" value="15759" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="3" />
+          <entry key="cmake" value="2" />
+          <entry key="cpp" value="7" />
           <entry key="h" value="4" />
-          <entry key="txt" value="7" />
+          <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="6" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="CMakeCache.txt" value="1" />
+          <entry key="CMakeLists.txt" value="3" />
+          <entry key="ObjectiveC" value="10" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -92,57 +94,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="570" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#153#165#0" expanded="true" />
-                <element signature="e#237#249#0" expanded="true" />
-                <element signature="e#513#525#0" expanded="true" />
-                <element signature="e#1107#1119#0" expanded="true" />
-                <element signature="e#1195#1207#0" expanded="true" />
-                <element signature="e#1301#1313#0" expanded="true" />
-                <element signature="e#1395#1407#0" expanded="true" />
-                <element signature="e#1611#1623#0" expanded="true" />
-                <element signature="e#1892#1904#0" expanded="true" />
-                <element signature="e#2017#2029#0" expanded="true" />
-                <element signature="e#2328#2340#0" expanded="true" />
-                <element signature="e#3265#3277#0" expanded="true" />
-                <element signature="e#4304#4316#0" expanded="true" />
-                <element signature="e#4496#4508#0" expanded="true" />
-                <element signature="e#4589#4601#0" expanded="true" />
-                <element signature="e#5322#5334#0" expanded="true" />
-                <element signature="e#5665#5677#0" expanded="true" />
-                <element signature="e#6261#6274#0" expanded="true" />
-                <element signature="e#6367#6380#0" expanded="true" />
-                <element signature="e#6461#6474#0" expanded="true" />
-                <element signature="e#6689#6702#0" expanded="true" />
-                <element signature="e#7061#7073#0" expanded="true" />
-                <element signature="e#7231#7243#0" expanded="true" />
-                <element signature="e#7397#7409#0" expanded="true" />
-                <element signature="e#7721#7733#0" expanded="true" />
-                <element signature="e#7847#7859#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input2.txt">
+        <entry file="file://$PROJECT_DIR$/output3.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input3.txt">
+        <entry file="file://$PROJECT_DIR$/ans3.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -153,6 +117,22 @@
       <find>link</find>
       <find>pop()</find>
       <find>delFromQ</find>
+      <find>booklist</find>
+      <find>size</find>
+      <find>insert</find>
+      <find>p</find>
+      <find>printToFile</find>
+      <find>stackTop</find>
+      <find>new</find>
+      <find>reverseC</find>
+      <find>qSale</find>
+      <find>sSale</find>
+      <find>linkedS</find>
+      <find>reverseS</find>
+      <find>qS</find>
+      <find>sS</find>
+      <find>sSa</find>
+      <find>printtofile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,6 +145,11 @@
         <option value="$PROJECT_DIR$/StackADT.h" />
         <option value="$PROJECT_DIR$/linkedStack.h" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.cpp" />
+        <option value="$PROJECT_DIR$/Node.cpp" />
+        <option value="$PROJECT_DIR$/BookList.cpp" />
+        <option value="$PROJECT_DIR$/Queue.cpp" />
+        <option value="$PROJECT_DIR$/Stack.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -176,10 +161,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="-11" />
+    <option name="width" value="980" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +214,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Bookstore">
-    <configuration name="Bookstore" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="input=input1.txt output=output1.txt" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Bookstore" TARGET_NAME="Bookstore" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Bookstore" RUN_TARGET_NAME="Bookstore">
+    <configuration name="Bookstore" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="input=input3.txt output=output3.txt" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Bookstore" TARGET_NAME="Bookstore" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Bookstore" RUN_TARGET_NAME="Bookstore">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -258,29 +242,34 @@
       <workItem from="1540438887772" duration="11019000" />
       <workItem from="1540499286752" duration="16992000" />
       <workItem from="1540529581266" duration="601000" />
-      <workItem from="1540875810393" duration="13151000" />
+      <workItem from="1540875810393" duration="56090000" />
+      <workItem from="1541281536846" duration="10612000" />
+      <workItem from="1541481505508" duration="618000" />
+      <workItem from="1541988949245" duration="17000" />
+      <workItem from="1541989010961" duration="4291000" />
+      <workItem from="1542157614940" duration="30000" />
+      <workItem from="1542157687432" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41763000" />
+    <option name="totallyTimeSpent" value="100872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="654" height="688" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="653" height="687" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.48229343" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49716598" visible="true" weight="0.29496402" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49716598" visible="true" weight="0.22380106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4979757" weight="0.31834534" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4979757" weight="0.24640287" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502834" side_tool="true" weight="0.29129663" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -330,10 +319,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArgumentManager.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ans1.txt">
+    <entry file="file://$USER_HOME$/AVLPROJ/ArgumentManager.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/input3.txt">
@@ -342,51 +328,66 @@
     <entry file="file://$PROJECT_DIR$/input2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input1.txt">
+    <entry file="file://$USER_HOME$/RicardosCPP/input1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Queue.cpp" />
+    <entry file="file://$PROJECT_DIR$/Stack.cpp" />
+    <entry file="file://$PROJECT_DIR$/Node.cpp" />
+    <entry file="file://$PROJECT_DIR$/BookList.cpp" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="570" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#153#165#0" expanded="true" />
-            <element signature="e#237#249#0" expanded="true" />
-            <element signature="e#513#525#0" expanded="true" />
-            <element signature="e#1107#1119#0" expanded="true" />
-            <element signature="e#1195#1207#0" expanded="true" />
-            <element signature="e#1301#1313#0" expanded="true" />
-            <element signature="e#1395#1407#0" expanded="true" />
-            <element signature="e#1611#1623#0" expanded="true" />
-            <element signature="e#1892#1904#0" expanded="true" />
-            <element signature="e#2017#2029#0" expanded="true" />
-            <element signature="e#2328#2340#0" expanded="true" />
-            <element signature="e#3265#3277#0" expanded="true" />
-            <element signature="e#4304#4316#0" expanded="true" />
-            <element signature="e#4496#4508#0" expanded="true" />
-            <element signature="e#4589#4601#0" expanded="true" />
-            <element signature="e#5322#5334#0" expanded="true" />
-            <element signature="e#5665#5677#0" expanded="true" />
-            <element signature="e#6261#6274#0" expanded="true" />
-            <element signature="e#6367#6380#0" expanded="true" />
-            <element signature="e#6461#6474#0" expanded="true" />
-            <element signature="e#6689#6702#0" expanded="true" />
-            <element signature="e#7061#7073#0" expanded="true" />
-            <element signature="e#7231#7243#0" expanded="true" />
-            <element signature="e#7397#7409#0" expanded="true" />
-            <element signature="e#7721#7733#0" expanded="true" />
-            <element signature="e#7847#7859#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
